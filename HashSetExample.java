@@ -32,9 +32,7 @@ public class HashSetExample {
             }
             else if (command==3) {
                 System.out.println("HashSet Contents:");
-                for (String element : set) {
-                    System.out.println(element);
-                }
+                System.out.println(set);
             }
             else if (command==4) {
                 System.out.println("Exiting...");
